@@ -2,7 +2,7 @@
 
 % Connect to board
 clear device
-device = serialport("COM13",115200);
+device = serialport("COM16",115200);
 device.Timeout = 25;
 device.write("y", "string");
 

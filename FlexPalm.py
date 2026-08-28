@@ -24,7 +24,7 @@ NUM_ELECTRODES = 16  # Change to 16, 32, or 64 as needed
 MESH_ELEMENT_SIZE = 0.08  # Smaller = finer mesh
 STIM_FREQ_KHZ = 20
 PERIODS_PER_MEASUREMENT = 5
-TX_GAIN = 32  # 20k, 32 256
+TX_GAIN = 32  # 20k and 10k, 32 256
 RX_GAIN = 256
 
 devices = eit.get_connected_devices()
